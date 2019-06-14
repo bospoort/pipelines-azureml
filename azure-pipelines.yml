@@ -18,7 +18,7 @@ steps:
   inputs:
     azureSubscription: 'azmldemows'
     scriptLocation: inlineScript
-    inlineScript: 'az ml folder attach -w build-2019-demo -g schedule-robustness'
+    inlineScript: 'az ml folder attach -w schedule-robustness -g schedule-robustness'
 
 - task: AzureCLI@1
   displayName: 'Create compute for training'
