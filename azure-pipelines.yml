@@ -6,6 +6,9 @@ pool:
 
 steps:
 
+
+
+
 - task: AzureCLI@1
   displayName: 'Install the CLI'
   inputs:
